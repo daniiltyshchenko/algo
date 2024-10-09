@@ -11,4 +11,11 @@ public class Q1768MergeStringsAlternatelyTest {
         Assertions.assertThat(Q1768MergeStringsAlternately.mergeAlternately_01("ab", "pqrs")).isEqualTo("apbqrs");
         Assertions.assertThat(Q1768MergeStringsAlternately.mergeAlternately_01("abcd", "pq")).isEqualTo("apbqcd");
     }
+
+    @Test
+    public void test_02() {
+        Assertions.assertThat(Q1768MergeStringsAlternately.mergeAlternately_02("abc", "pqr")).isEqualTo("apbqcr");
+        Assertions.assertThat(Q1768MergeStringsAlternately.mergeAlternately_02("ab", "pqrs")).isEqualTo("apbqrs");
+        Assertions.assertThat(Q1768MergeStringsAlternately.mergeAlternately_02("abcd", "pq")).isEqualTo("apbqcd");
+    }
 }
